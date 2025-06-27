@@ -14,11 +14,18 @@ lint: fmt
 build: clean
   cargo build --release
 
+re-build: 
+  cargo build --release
+
 strip: build
   strip ./target/release/walk-git
 
 run: strip
   RUST_LOG=debug cargo run --release
+
+test: strip
+  cd ./test
+  RUST_LOG=debug ../target/release/walk-git
 
 install: strip
   cargo install --path .
