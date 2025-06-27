@@ -10,7 +10,7 @@ folder containing lot of github repositories.
 Walk-git --folder `folder-name` or default to `github`.
 
 ```bash
-walk-git --folder my_github_root_dir | tr -d '[]," ' > github_remote.txt
+gitwalker --folder my_github_root_dir | tr -d '[]," ' > github_remote.txt
 ```
 
 Its going to retrieve all the remote origin put into a `github_remote.txt` file.

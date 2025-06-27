@@ -25,7 +25,7 @@ run: strip
 
 test: strip
   cd ./test
-  RUST_LOG=debug ../target/release/walk-git
+  RUST_LOG=debug ../target/release/gitwalker
 
 install: strip
   cargo install --path .
