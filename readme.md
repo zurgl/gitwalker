@@ -14,4 +14,3 @@ gitwalker --folder my_github_root_dir | tr -d '[]," ' > github_remote.txt
 ```
 
 Its going to retrieve all the remote origin put into a `github_remote.txt` file.
-Then, it will erase all the directory, freeing space.
