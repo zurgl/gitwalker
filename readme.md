@@ -7,7 +7,7 @@ folder containing lot of github repositories.
 
 ## Usage
 
-Walk-git --folder `folder-name` or default to `github`.
+gitwalker --folder `folder-name` or default to `github`.
 
 ```bash
 gitwalker --folder my_github_root_dir | tr -d '[]," ' > github_remote.txt
