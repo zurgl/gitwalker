@@ -12,7 +12,7 @@ use std::{
 };
 
 static ERROR_FAIL_TO_PARSE_CLI_ARGS: &str = "ERROR_FAIL_TO_PARSE_CLI_ARGS";
-static ERROR_FOLDER_DO_NOT_EXIST: &str = "ERROR_PROCESS_ON_EXEC";
+static ERROR_FOLDER_DO_NOT_EXIST: &str = "ERROR_FOLDER_DO_NOT_EXIST";
 
 #[derive(clap::Parser, Debug)]
 #[command(version, about, long_about = None)]
